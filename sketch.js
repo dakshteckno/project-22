@@ -27,6 +27,9 @@ function setup() {
 	groundSprite=createSprite(width/2, height-35, width,10);
 	groundSprite.shapeColor=color(255)
 
+	rect1 = createSprite(290,625,20,90);
+	rect2 = createSprite(365,660,160,20);
+    rect3 = createSprite(455,625,20,90);
 
 	engine = Engine.create();
 	world = engine.world;
